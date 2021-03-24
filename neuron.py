@@ -13,7 +13,8 @@ class Neuron:
             return False
 
         x: np.ndarray = np.reshape(x, self.weights.shape)
-        x = x / x.sum()
+        normalize_value = np.sum(np.abs(x))
+        x = x / normalize_value
         if y == 1:
             self.weights += x
         else:

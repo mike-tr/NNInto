@@ -2,5 +2,6 @@
     "python.pythonPath": "C:\\Users\\Michael\\Anaconda3\\envs\\cv\\python.exe",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
-    "python.jediEnabled": false
+    "python.jediEnabled": false,
+    "python.languageServer": "Microsoft"
 }
